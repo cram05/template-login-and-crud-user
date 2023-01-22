@@ -7,9 +7,10 @@ body {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: darkred;
     text-align: center;
+    font-weight: 500;
 }
 
 .container-form {
@@ -17,7 +18,7 @@ body {
     margin: 20px auto;
 }
 
-.container-body {
+.container-login {
     background-color: crimson;
     padding: 20px 17px;
 }
