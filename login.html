@@ -15,8 +15,8 @@
     <main class="container-main">
         <div class="logo">Carlos-dev</div>
         <div class="container-forms">
-            <div class="container-body">
-                <div class="signin">
+            <div class="container-body"  id="containerForm">
+                <div class="form-signin">
                     <div class="form-input">
                         <label for="username">
                             <span class="material-symbols-outlined">
@@ -35,7 +35,7 @@
                     </div>
                     <input class="button-enter" type="submit" value="enter" name="enter">
                 </div>
-                <div class="register-1">
+                <div class="form-register-1">
                     <div class="form-input">
                         <label for="name">
                             <span class="material-symbols-outlined">
@@ -52,13 +52,13 @@
                             email</label>
                         <input type="email" name="email" id="email">
                     </div>
-                    <button class="button-enter">Next 
+                    <button class="button-enter" id="btnNext">Next 
                         <span class="material-symbols-outlined">
                             navigate_next
                         </span>
                     </button>
                 </div>
-                <div class="register-2">
+                <div class="form-register-2">
                     <div class="form-input">
                         <label for="password">
                             <span class="material-symbols-outlined">
@@ -79,8 +79,8 @@
                 </div>
             </div>
             <div class="container-footer">
-                <button class="button active">Sign In</button>
-                <button class="button">Register</button>
+                <button class="button active" id="btnSignin">Sign In</button>
+                <button class="button" id="btnReg">Register</button>
             </div>
         </div>
     </main>

@@ -16,20 +16,39 @@ body {
 .container-forms {
     width: 300px;
     margin: 20px auto;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .container-body {
     background-color: crimson;
-    width: 909px;
-    /* box-sizing: border-box; */
+    width: 900px;
+    position: relative;
+    left: 0;
+    display: flex;
 }
 
-.signin, .register-1, .register-2 {
-    display: inline-block;
+.container-body.signin {
+    left: 0px;
+    transition: left 1s;
+}
+
+.container-body.register-1 {
+    left: -300px;
+    transition: left 1s;
+}
+
+.container-body.register-2 {
+    left: -600px;
+    transition: left 1s;
+}
+
+.form-signin, .form-register-1, .form-register-2 {
     padding: 20px 17px;
     box-sizing: border-box;
     width: 300px;
+}
+.form-register-1, .form-register-2 {
+    background-color: indianred;
 }
 
 .form-input {
