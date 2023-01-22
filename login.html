@@ -5,25 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="logo">Carlos-dev</div>
-    <div class="container-login-register">
-        <div class="container-body">
-            <div class="form-input">
-                <label for="username">username</label>
-                <input type="text" name="username" id="username">
+    <main class="container-main">
+        <div class="logo">Carlos-dev</div>
+        <div class="container-form">
+            <div class="container-body">
+                <div class="form-input">
+                    <label for="username">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                        username</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="form-input">
+                    <label for="pass">
+                        <span class="material-symbols-outlined">
+                            lock
+                        </span>
+                        password</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+                <input class="button-enter" type="submit" value="enter" name="enter">
             </div>
-            <div class="form-input">
-                <label for="pass">password</label>
-                <input type="password" name="pass" id="pass">
+            <div class="container-footer">
+                <button class="button signin active">Sign In</button>
+                <button class="button register ">Register</button>
             </div>
-            <input type="submit" value="enter" name="enter">
         </div>
-        <div class="container-footer">
-            <button class="button signin">Sign In</button>
-            <button class="button register">Register</button>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
