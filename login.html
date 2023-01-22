@@ -14,29 +14,73 @@
 <body>
     <main class="container-main">
         <div class="logo">Carlos-dev</div>
-        <div class="container-form">
-            <div class="container-login">
-                <div class="form-input">
-                    <label for="username">
-                        <span class="material-symbols-outlined">
-                            account_circle
-                        </span>
-                        username</label>
-                    <input type="text" name="username" id="username">
+        <div class="container-forms">
+            <div class="container-body">
+                <div class="signin">
+                    <div class="form-input">
+                        <label for="username">
+                            <span class="material-symbols-outlined">
+                                account_circle
+                            </span>
+                            username</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+                    <div class="form-input">
+                        <label for="pass">
+                            <span class="material-symbols-outlined">
+                                lock
+                            </span>
+                            password</label>
+                        <input type="password" name="pass" id="pass">
+                    </div>
+                    <input class="button-enter" type="submit" value="enter" name="enter">
                 </div>
-                <div class="form-input">
-                    <label for="pass">
+                <div class="register-1">
+                    <div class="form-input">
+                        <label for="name">
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                            Full name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-input">
+                        <label for="email">
+                            <span class="material-symbols-outlined">
+                                mail
+                            </span>
+                            email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <button class="button-enter">Next 
                         <span class="material-symbols-outlined">
-                            lock
+                            navigate_next
                         </span>
-                        password</label>
-                    <input type="password" name="pass" id="pass">
+                    </button>
                 </div>
-                <input class="button-enter" type="submit" value="enter" name="enter">
+                <div class="register-2">
+                    <div class="form-input">
+                        <label for="password">
+                            <span class="material-symbols-outlined">
+                                lock
+                            </span>
+                            Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="form-input">
+                        <label for="confirmPassword">
+                            <span class="material-symbols-outlined">
+                                lock
+                            </span>
+                            Confirm password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword">
+                    </div>
+                    <input class="button-enter" type="submit" value="Register" name="register">
+                </div>
             </div>
             <div class="container-footer">
-                <button class="button signin active">Sign In</button>
-                <button class="button register ">Register</button>
+                <button class="button active">Sign In</button>
+                <button class="button">Register</button>
             </div>
         </div>
     </main>
