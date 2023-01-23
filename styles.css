@@ -27,7 +27,7 @@ ul {
 
 .logo {
     font-size: 1.8em;
-    color: darkred;
+    color: gold;
     text-align: center;
     font-weight: 500;
 }
@@ -143,6 +143,7 @@ ul {
 
 /* Users */
 .header {
+    background-image: linear-gradient(to right, darkred , crimson);
     background-color: crimson;
     height: 60px;
     padding: 5px 25px;
@@ -199,4 +200,73 @@ ul {
 
 .nav .dropdown li a:hover {
     color: firebrick;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.title {
+    border-bottom: 1px solid crimson;
+    font-weight: 300;
+}
+
+.btn-2 {
+    background-color: firebrick;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn-2:hover {
+    background-color: darkred;
+}
+
+.btn-sm {
+    font-size: 0.7em;
+}
+
+.section-list-users .menu-options {
+    margin: 10px 0;
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px solid dimgray;
+}
+
+table thead tr {
+    border-bottom: 2px solid dimgray;
+}
+
+table th, table td {
+    padding: 3px 7px;
+    font-size: .9em;
+}
+
+table th {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+table td {
+    font-weight: 300;
+}
+
+table td a {
+    margin: 0 3px;
+    font-size: 0.8em;
+    color: firebrick;
+}
+
+table td a:hover {
+    color: darkred;
 }
