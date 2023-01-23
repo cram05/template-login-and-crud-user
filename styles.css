@@ -110,6 +110,7 @@ label {
     font-size: 14px;
     border-width: 1px;
     border-radius: 3px;
+    border-style: solid;
     border-color: dimgray;
     padding: 2px 10px;
     color: dimgray;
@@ -312,4 +313,10 @@ table td a:hover {
 
 .section-info-user .field-update-pass fieldset legend {
     color: crimson;
+}
+
+/* Create user */
+.form-create-user {
+    max-width: 350px;
+    padding-left: 15px;
 }

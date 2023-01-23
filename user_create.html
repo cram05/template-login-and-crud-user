@@ -34,30 +34,29 @@
         </nav>
     </header>
     <main class="container">
-        <h1 class="title">User Info</h1>
+        <h1 class="title">Create user</h1>
         <div class="menu-options">
             <a href="#"> Back</a>
-            <a class="btn-2 btn-sm" href="#">Delete Account</a>
         </div>
         <div class="section-info-user">
-            <div class="input-view">
-                <p class="textbold margin-b-0 ">Nombre:</p>
-                <p class="margin-t-0">Carlos Silvestre</p>
-                <p class="textbold margin-b-0">Email:</p>
-                <p class="margin-t-0">carlos@gmail.com</p>
-                <div class="field-update-pass">
-                    <fieldset>
-                        <legend>Change password</legend>
-                        <div class="form-input">
-                            <label for="pass">New password</label>
-                            <input type="password" name="pass" id="pass">
-                        </div>
-                        <div class="form-input">
-                            <label for="passConfirm">Confirm password</label>
-                            <input type="password" name="passConfirm" id="passConfirm">
-                        </div>
-                    </fieldset>
+            <div class="form-create-user">
+                <div class="form-input">
+                    <label for="name">Name</label>
+                    <input type="text" id="Name">
                 </div>
+                <div class="form-input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-input f-normal">
+                    <label for="pass">New password</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+                <div class="form-input f-normal">
+                    <label for="passConfirm">Confirm password</label>
+                    <input type="password" name="passConfirm" id="passConfirm">
+                </div>
+                <input class="button-enter" type="submit" value="Create">
             </div>
         </div>
     </main>
