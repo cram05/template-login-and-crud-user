@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Logo-CR</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    CRM05<span class="material-symbols-outlined">
+                    arrow_drop_down
+                    </span></a>
+                    <ul class="dropdown">
+                        <li><a href="#">My perfil</a></li>
+                        <li><a href="#">Update info</a></li>
+                        <li><a href="#">Sign out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="title">User Info</h1>
+        <div class="menu-options">
+            <a href="#"> Back</a>
+            <a class="btn-2 btn-sm" href="#">Delete Account</a>
+        </div>
+        <div class="section-info-user">
+            <div class="input-view">
+                <p class="textbold margin-b-0 ">Nombre:</p>
+                <p class="margin-t-0">Carlos Silvestre</p>
+                <p class="textbold margin-b-0">Email:</p>
+                <p class="margin-t-0">carlos@gmail.com</p>
+                <div class="field-update-pass">
+                    <fieldset>
+                        <legend>Change password</legend>
+                        <div class="form-input f-normal">
+                            <label for="pass">New password</label>
+                            <input type="password" name="pass" id="pass">
+                        </div>
+                        <div class="form-input f-normal">
+                            <label for="passConfirm">Confirm password</label>
+                            <input type="password" name="passConfirm" id="passConfirm">
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
