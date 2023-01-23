@@ -1,5 +1,6 @@
 body {
     font-family: "Poppins";
+    font-weight: 300;
     margin: 0;
 }
 
@@ -319,4 +320,16 @@ table td a:hover {
 .form-create-user {
     max-width: 350px;
     padding-left: 15px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: gainsboro;
+    font-size: 0.7em;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
