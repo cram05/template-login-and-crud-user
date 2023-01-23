@@ -51,7 +51,7 @@ label {
     font-size: 1.8em;
     color: gold;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .container-forms {
@@ -146,6 +146,12 @@ label {
     background-color: darkred;
 }
 
+.container-header {
+    background-image: linear-gradient(to right, darkred , crimson);
+    height: 40px;
+    padding: 5px 25px;
+}
+
 .container-footer {
     display: flex;
 }
@@ -170,6 +176,7 @@ label {
 .container-footer .button:hover {
     font-weight: 500;
 }
+
 
 /* Users */
 .header {
