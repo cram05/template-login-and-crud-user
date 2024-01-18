@@ -49,7 +49,7 @@ label {
 }
 
 .container-logo {
-    height: 60px;
+    height: 50px;
     padding: 5px 25px;
     position: relative;
     top: 50px
@@ -73,11 +73,14 @@ label {
 }
 
 .container-body {
-    background-color: #2b009e;
     width: 900px;
     position: relative;
     left: 0;
     display: flex;
+}
+
+.form-signin {
+    background-color: #a6becc5e;
 }
 
 .container-body.signin {
@@ -103,7 +106,7 @@ label {
     color: white;
 }
 .form-register-1, .form-register-2 {
-    background-color: indianred;
+    background-color: #5cb8cd80;
 }
 
 .form-input {
