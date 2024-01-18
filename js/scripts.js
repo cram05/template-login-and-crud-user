@@ -46,15 +46,15 @@
     
 
     /** Header */
-    var navItems = document.querySelectorAll('.nav > ul > li ');
-    for (const i of navItems) {
-        i.addEventListener('mouseover', function(){
-            if(this.firstChild.nextElementSibling)
-                this.firstChild.nextElementSibling.style.display = "flex";
-        })
-        i.addEventListener('mouseout', function() {
-            if (this.firstChild.nextElementSibling)
-                this.firstChild.nextElementSibling.style.display = "none";
-        })
-    }
+    // var navItems = document.querySelectorAll('.nav > ul > li ');
+    // for (const i of navItems) {
+    //     i.addEventListener('mouseover', function(){
+    //         if(this.firstChild.nextElementSibling)
+    //             this.firstChild.nextElementSibling.style.display = "flex";
+    //     })
+    //     i.addEventListener('mouseout', function() {
+    //         if (this.firstChild.nextElementSibling)
+    //             this.firstChild.nextElementSibling.style.display = "none";
+    //     })
+    // }
 })();
